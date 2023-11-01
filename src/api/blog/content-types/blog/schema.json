@@ -70,36 +70,36 @@
       "default": false
     },
     "Thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "required": true
+      }
     },
     "Banner": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "required": true
+      }
     },
     "Content": {
       "pluginOptions": {
@@ -109,6 +109,16 @@
       },
       "type": "richtext",
       "required": true
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo"
     }
   }
 }
