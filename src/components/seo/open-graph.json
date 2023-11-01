@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_seo_open_graphs",
+  "info": {
+    "displayName": "OpenGraph",
+    "icon": "search"
+  },
+  "options": {},
+  "attributes": {
+    "siteName": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "type": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

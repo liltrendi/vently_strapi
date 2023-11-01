@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_seo_twitters",
+  "info": {
+    "displayName": "Twitter",
+    "icon": "american-sign-language-interpreting"
+  },
+  "options": {},
+  "attributes": {
+    "handle": {
+      "type": "string"
+    },
+    "site": {
+      "type": "string"
+    },
+    "cardType": {
+      "type": "string"
+    }
+  }
+}

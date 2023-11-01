@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_seos",
+  "info": {
+    "displayName": "SEO",
+    "icon": "angry"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "canonical": {
+      "type": "string"
+    },
+    "openGraph": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.open-graph"
+    },
+    "twitter": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.twitter"
+    }
+  }
+}
